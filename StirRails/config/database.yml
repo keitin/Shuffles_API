@@ -50,6 +50,6 @@ test:
 production:
   <<: *default
   database: StirRails_production
-  username: ec2-user
-  password: <%= ENV['STIRRAILS_DATABASE_PASSWORD'] %>
+  username: root
+  password:
   socket: /var/lib/mysql/mysql.sock
