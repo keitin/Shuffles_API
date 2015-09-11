@@ -15,3 +15,7 @@
 # Ignore uploads
 /public/uploads/*
 
+
+config/settings.yml
+config/settings/*.yml
+config/environments/*.yml
