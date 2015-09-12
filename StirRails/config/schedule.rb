@@ -21,7 +21,7 @@
 set :output, {:error => 'log/error.log', :standard => 'log/cron.log'}
 set :environment, :development
 
-every 1.day, :at => '7:00 am' do
+every 1.minutes do
   runner "Group.all_group_user_shuffle"
 end
 
